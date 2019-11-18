@@ -1,6 +1,6 @@
 ---
 title: Exemplo de Postagem
-categories: exemplo
+categories: exemplo outro-exemplo
 date: 2019/11/01
 ---
 
