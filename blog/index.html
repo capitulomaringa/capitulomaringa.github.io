@@ -4,7 +4,6 @@ description: Nossas ultimas noticias serão postadas aqui :)
 ---
 
 <div class="text-container">
-	<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
 	<ul class="blog-posts">
 		{% include list-posts.html posts=paginator.posts %}
 	</ul>
@@ -13,13 +12,13 @@ description: Nossas ultimas noticias serão postadas aqui :)
 		<!-- Pagination links -->
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{% include relative-src.html src=paginator.previous_page_path %}" class="previous btn">&larr; Newer posts</a>
+				<a href="{% include relative-src.html src=paginator.previous_page_path %}" class="previous btn">&larr; Postagens recentes...</a>
 			{% endif %}
 
 			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{% include relative-src.html src=paginator.next_page_path %}" class="next btn">Older posts &rarr;</a>
+				<a href="{% include relative-src.html src=paginator.next_page_path %}" class="next btn">Postagens antigas... &rarr;</a>
 			{% endif %}
 		</div>
 	{% endif %}
