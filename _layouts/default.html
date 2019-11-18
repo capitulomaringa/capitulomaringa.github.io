@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
-
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -23,7 +23,9 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Capitulo Maringa" width="95" height="33" /></a></div>
+				<div class="company-name">
+					<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="Capitulo Maringa" width="95" height="33" /></a>
+				</div>
 				{% include navigation.html %}
 			</div>
 		</header>
@@ -43,7 +45,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Capitulo Maringá nº 89 • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
 			</div>
 		</footer>
 		<script>

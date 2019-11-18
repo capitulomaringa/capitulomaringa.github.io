@@ -1,38 +1,16 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Página Inicial
+    link: /
   - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
+    link: /blog
 - links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
+  - name: GCE-PR
+    link: https://www.demolayparana.org.br/
 - links:
   - name: Facebook
-    link: https://facebook.com/cloudcannon/
+    link: https://www.facebook.com/CapituloMaringa89/
     new_window: true
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
-    new_window: true
   - name: RSS
     link: /feed.xml
     social_icon: RSS
