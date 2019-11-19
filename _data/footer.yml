@@ -11,6 +11,10 @@
     link: https://www.facebook.com/CapituloMaringa89/
     new_window: true
     social_icon: Facebook
+  - name: Instagram
+    link: https://www.instagram.com/capitulomaringa
+    new_window: true
+    social_icon: Instagram
   - name: RSS
     link: /feed.xml
     social_icon: RSS
